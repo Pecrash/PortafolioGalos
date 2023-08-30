@@ -14,7 +14,7 @@ export const Header = () => {
 	return (
 		<>
 			<div className="header">
-			    <NavLink className="logo" to="/" ><img className="logo__img" src="/src/assets/Galos.svg" alt="" /></NavLink>
+			    <NavLink className="logo" to="/" ><img className="logo__img" src="/assets/Galos.svg" alt="" /></NavLink>
 				<div className={`menu ${active == 1 ? "active": ""}`}>
 					<ul className="menu__list">
 						<li className="menu__item"><NavLink onClick={menuActivation} className={`menu__item-link ${({isActive}) => isActive ? 'active': ""}`} to="/">INICIO</NavLink></li>

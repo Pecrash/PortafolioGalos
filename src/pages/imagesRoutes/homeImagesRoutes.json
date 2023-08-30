@@ -1,42 +1,42 @@
 [
 	{
-		"src": "/src/assets/Images/retrato/fotoRetrato04.jpg",
+		"src": "/assets/Images/retrato/fotoRetrato04.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/retrato/fotoRetrato01.jpg",
+		"src": "/assets/Images/retrato/fotoRetrato01.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/eventos/fotoEventos06.jpg",
+		"src": "/assets/Images/eventos/fotoEventos06.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/eventos/fotoEventos20.jpg",
+		"src": "/assets/Images/eventos/fotoEventos20.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/moda/fotoModa07.jpg",
+		"src": "/assets/Images/moda/fotoModa07.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/eventos/fotoEventos22.jpg",
+		"src": "/assets/Images/eventos/fotoEventos22.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/otros/fotoOtros08.jpg",
+		"src": "/assets/Images/otros/fotoOtros08.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/otros/fotoOtros05.jpg",
+		"src": "/assets/Images/otros/fotoOtros05.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/naturaleza/fotoNaturaleza01.jpg",
+		"src": "/assets/Images/naturaleza/fotoNaturaleza01.jpg",
 		"alt": ""
 	},
 	{
-		"src": "/src/assets/Images/naturaleza/fotoNaturaleza03.jpg",
+		"src": "/assets/Images/naturaleza/fotoNaturaleza03.jpg",
 		"alt": ""
 	}
 ]

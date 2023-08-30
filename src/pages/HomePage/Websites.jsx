@@ -22,36 +22,36 @@ export const Websites = () => {
 					className={`websiteSection__container-img ${
 						active === 1 ? "active" : ""
 					}`}
-					src="/src/assets/Images/websites/odontologia.png"
+					src="/assets/Images/websites/odontologia.png"
 				/>
 				<img
 					className={`websiteSection__container-img ${
 						active === 2 ? "active" : ""
 					}`}
-					src="/src/assets/Images/websites/hotel.png"
+					src="/assets/Images/websites/hotel.png"
 					alt=""
 				/>
 				<img
 					className={`websiteSection__container-img ${
 						active === 0 ? "active" : ""
 					}`}
-					src="/src/assets/Images/websites/peluqueria.png"
+					src="/assets/Images/websites/peluqueria.png"
 				/>
 			</div>
 			<figure className="websiteSection__icons">
 				<img
 					className="websiteSection__icons-icon"
-					src="/src/assets/extraIcons/HTML5.svg"
+					src="/assets/extraIcons/HTML5.svg"
 					alt=""
 				/>
 				<img
 					className="websiteSection__icons-icon"
-					src="/src/assets/extraIcons/css.svg"
+					src="/assets/extraIcons/css.svg"
 					alt=""
 				/>
 				<img
 					className="websiteSection__icons-icon"
-					src="/src/assets/extraIcons/javascript.svg"
+					src="/assets/extraIcons/javascript.svg"
 					alt=""
 				/>
 			</figure>
