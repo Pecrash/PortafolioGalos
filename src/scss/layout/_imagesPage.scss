@@ -1,0 +1,76 @@
+@use "../abstracts" as *;
+
+@include media-up(phone) {
+    .popUp {
+		display: flex;
+        visibility: hidden;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100dvh;
+		background-color: rgba(0, 0, 0, 0.903);
+		z-index: 2;
+        opacity: 0;
+        transition: all 0.8s ease;
+
+		&__image {
+			width: 90%;
+		}
+
+        &__btn {
+            position: absolute;
+            background-image: url("/src/assets/extraIcons/close.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: transparent;
+            width: 35px;
+            height: 35px;
+            top: 30px;
+            right: 20px;
+            border: none;
+        }
+
+		&.visible {
+            visibility: visible;
+			display: flex;
+            opacity: 1;
+            transition: all 0.8s ease;
+		}
+	}
+
+    .imagesPage__title {
+        font-size: 27px;
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 0 20px;
+    }
+    
+	.imageSection {
+		display: flex;
+		flex-direction: column;
+        margin-bottom: 80px;
+
+		/* &__title {
+			color: white;
+			font-family: $font_1;
+            font-size: 25px;
+            margin-left: 20px;
+		} */
+
+		&__container {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            &-image {
+                height: 100px;
+            }
+		}
+	}
+}
