@@ -9,6 +9,11 @@
 body {
     position: relative;
     background-color: $backgroundColor;
+    font-size: 100%;
+}
+
+html {
+    font-size: 100%;
 }
 
 h1, h2, h3 {

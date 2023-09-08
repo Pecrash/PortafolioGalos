@@ -11,7 +11,7 @@
 		width: 100%;
 		height: 100dvh;
 		background-color: rgba(0, 0, 0, 0.903);
-		z-index: 2;
+		z-index: 5;
         opacity: 0;
         transition: all 0.8s ease;
 
@@ -25,10 +25,10 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-color: transparent;
-            width: 35px;
-            height: 35px;
-            top: 30px;
-            right: 20px;
+            width: 2.1875rem;
+            height: 2.1875rem;
+            top: 1.875rem;
+            right: 1.25rem;
             border: none;
         }
 
@@ -41,24 +41,24 @@
 	}
 
     .imagesPage__title {
-        font-size: 27px;
+        font-size: 1.6875rem;
         color: white;
         text-align: center;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        padding: 0 20px;
+        margin-top: 6.5rem;
+        margin-bottom: 2.5rem;
+        padding: 0 1.25rem;
     }
     
 	.imageSection {
 		display: flex;
 		flex-direction: column;
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
 
 		/* &__title {
 			color: white;
 			font-family: $font_1;
-            font-size: 25px;
-            margin-left: 20px;
+            font-size: 1.5625rem;
+            margin-left: 1.25rem;
 		} */
 
 		&__container {
@@ -66,11 +66,37 @@
             justify-content: space-evenly;
             width: 100%;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: .625rem;
 
             &-image {
-                height: 100px;
+                height: 6.25rem;
             }
 		}
 	}
 }
+
+@include media-up(tablet) {
+    .popUp {
+        &__image {
+            width: 70%;
+        }
+    }
+}
+
+@include media-up(desktop) {
+    .popUp {
+        &__image {
+            width: auto;
+            height: 90%;
+        }
+    }
+
+    .imagesPage__title {
+        font-size: 2.8rem;
+    }
+
+    .imageSection {
+        margin-bottom: 10rem;
+    }
+}
+

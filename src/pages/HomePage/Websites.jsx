@@ -15,7 +15,7 @@ export const Websites = () => {
 	return (
 		<div className="websiteSection">
 			<h2 className="websiteSection__title">
-				AQUI VA EL TITULO PARA LOS WEBSITES
+				DAMOS PRESENCIA DIGITAL A TU HISTORIA Y LO QUE TIENES POR CONTAR
 			</h2>
 			<div className="websiteSection__container">
 				<img

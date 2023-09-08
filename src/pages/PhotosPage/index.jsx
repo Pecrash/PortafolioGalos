@@ -23,7 +23,7 @@ export const PhotosPage = () => {
 			</div>
 
 
-			<h1 className="imagesPage__title">TITULO MAMALON PARA LA PAGINA DE FOTOGRAFÍAS</h1>
+			<h1 className="imagesPage__title">UN VISTAZO A NUESTRO PORTAFOLIO VISUAL</h1>
 
 			<section className="imageSection">
 				<Images
@@ -60,7 +60,7 @@ export const PhotosPage = () => {
 					title={"RETRATOS"}
 					arrayImages={imagesPage.retrato}
 					link={false}
-					addClass={""}
+					addClass={"retratos"}
 					popUp={popUp}
 				/>
 			</section>

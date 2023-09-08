@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
 export const Videos = () => {
-
-	const [autoplay, setAutoplay] = useState(0);
+	const [autoplay, setAutoplay] = useState(1);
 
 	return (
 		<div className="videoSection">
-			<h2 className="videoSection__title">SI UNA IMAGEN NO BASTA UN CHINGO SÍ</h2>
+			<h2 className="videoSection__title">
+				SI UNA IMAGEN NO BASTA, MUCHAS DE ELLAS SÍ
+			</h2>
 			<div className="videoSection__video">
 				<iframe
 					width="100%"
@@ -18,7 +19,9 @@ export const Videos = () => {
 					allowFullScreen
 				></iframe>
 			</div>
-			<h2 className="videoSection__text">Frase o titulo para este video</h2>
+			<h2 className="videoSection__text">
+				Su valentía es el escudo que nos protege y nos rescata de la adversidad.
+			</h2>
 			<div className="videoSection__video">
 				<iframe
 					width="100%"
@@ -30,7 +33,10 @@ export const Videos = () => {
 					allowFullScreen
 				></iframe>
 			</div>
-			<h2 className="videoSection__text">Frase o titulo para este video</h2>
+			<h2 className="videoSection__text">
+				Son faros de esperanza en tiempos de enfermedad, iluminando nuestro
+				camino hacia una vida prospera.
+			</h2>
 		</div>
 	);
 };

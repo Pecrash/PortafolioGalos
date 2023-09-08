@@ -4,9 +4,14 @@ export const VideosPage = () => {
 	return (
 		<>
 			<div className="videosPage">
-				<h1 className="videosPage__title">TITULO PARA LA PAGINA BRO</h1>
+				<h1 className="videosPage__title">
+					UN VISTAZO A NUESTRA GALERÍA DE VIDEOS
+				</h1>
 
-				<h2 className="videosPage__subtitle">Titulo para este video bro</h2>
+				<h2 className="videosPage__subtitle">
+					En el corazón del peligro, los bomberos iluminan el camino hacia la
+					seguridad.
+				</h2>
 				<div className="videosPage__video">
 					<iframe
 						width="100%"
@@ -19,7 +24,7 @@ export const VideosPage = () => {
 					></iframe>
 				</div>
 
-				<h2 className="videosPage__subtitle">Y para este otro video</h2>
+				<h2 className="videosPage__subtitle">Cada reparación es una historia de éxito sobre ruedas.</h2>
 				<div className="videosPage__video">
 					<iframe
 						width="100%"
@@ -32,7 +37,10 @@ export const VideosPage = () => {
 					></iframe>
 				</div>
 
-				<h2 className="videosPage__subtitle">Y para este otro video</h2>
+				<h2 className="videosPage__subtitle">
+					En las manos de los doctores encontramos el poder de sanar, el cuidado
+					que reconforta y la ciencia que da vida.
+				</h2>
 				<div className="videosPage__video">
 					<iframe
 						width="100%"
@@ -45,7 +53,7 @@ export const VideosPage = () => {
 					></iframe>
 				</div>
 
-				<h2 className="videosPage__subtitle">Y para este otro video</h2>
+				{/* <h2 className="videosPage__subtitle">Y para este otro video</h2> */}
 				<div className="videosPage__video">
 					<iframe
 						width="100%"

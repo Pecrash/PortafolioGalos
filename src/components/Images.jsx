@@ -19,11 +19,11 @@ export const Images = ({ title, arrayImages, link, addClass, popUp }) => {
 				<h2 className={`photosSection__title ${addClass}`}> {title} </h2>
 				<div className={`photosSection__container ${addClass}`}>
 					<button
-						className={`photosSection__container-btnL`}
+						className={`photosSection__container-btnL ${addClass}`}
 						onClick={() => scroll("left")}
 					/>
 					<button
-						className={`photosSection__container-btnR`}
+						className={`photosSection__container-btnR ${addClass}`}
 						onClick={() => scroll("right")}
 					/>
 					<div className={`photosSection__slider`} ref={sliderRef}>
